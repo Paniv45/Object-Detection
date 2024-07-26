@@ -1,0 +1,33 @@
+.object-detection {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.webcam-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+video,
+canvas {
+    width: 640px;
+    height: 480px;
+    border: 3px solid #333;
+    border-radius: 8px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
